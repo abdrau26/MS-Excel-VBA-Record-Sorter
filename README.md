@@ -20,6 +20,6 @@ Dim promptMSG As String
 End Sub
 ```
 - screenshot of input Box is given below
+![[user input form.png]]
 
-![[Screenshot 2026-05-13 174015.png]]
 
