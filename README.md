@@ -1,5 +1,6 @@
 - MS excel file is 002 SortingRecords.xlsm
 - here we will sort data using VBA code.
+- the sorting VBA has been generated using `Record Macro`
 - Excel sheet is `SORT RECORDS`.
 - Columns are `Division` `Category` `Jan` `Feb` `Mar` `Total`
 - The first step is to create user input box using VBA code 
@@ -20,6 +21,6 @@ Dim promptMSG As String
 End Sub
 ```
 - screenshot of input Box is given below
-![[user input form.png]]
+![user input form](user-input-form.png)
 
 
