@@ -95,7 +95,7 @@ The project shows how recorded macros can be  integrated with custom VBA to crea
 ##  How It Works
 
 The macro `userInputForm` combines custom VBA with pre‑recorded sorting routines.  
-Here is the complete, polished code inside the workbook:
+Here is the complete code inside the workbook:
 
 
 
@@ -134,13 +134,13 @@ End Sub
 
 - **DivisionSort**, **CategorySort**, and **TotalSort** are macros originally recorded with Excel’s `Record Macro` feature.
 - The custom `userInputForm` routine ties them together with a user‑friendly interface.
-- The retry logic demonstrates clean VBA error handling using a `MsgBox` with `vbYesNo`.
+- The retry logic shows clean VBA error handling using a `MsgBox` with `vbYesNo`.
 
 ---
 
 ##  Future Improvements
 
-- [ ] Add sorting for the monthly columns (`Jan`, `Feb`, `Mar`).
+- [ ] Add sorting for the month columns (`Jan`, `Feb`, `Mar`).
 - [ ] Allow ascending/descending order selection.
 - [ ] Validate input to ignore empty or cancelled prompts.
 - [ ] Create a custom ribbon button or keyboard shortcut for one‑click access.
@@ -150,4 +150,4 @@ End Sub
 
 ##  Author
 
-**Abdul Rauff
+**Abdul Rauff**
