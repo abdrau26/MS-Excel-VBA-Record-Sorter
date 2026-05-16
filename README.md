@@ -1,6 +1,6 @@
-- MS excel file is 002 SortingRecords.xlsm
+- MS excel file is `002 SortingRecords.xlsm`
 - here we will sort data using VBA code.
-- the sorting VBA has been generated using `Record Macro`
+- the sorting VBA by respective column has been generated using `Record Macro`
 - Excel sheet is `SORT RECORDS`.
 - Columns are `Division` `Category` `Jan` `Feb` `Mar` `Total`
 - The first step is to create user input box using VBA code 
@@ -24,7 +24,7 @@ End Sub
 ![user input form](user-input-form.png)
 
 
-- now we are adding `if` `elseif` conditions. the code sorts the table according to column number provided by user.the code is given below
+- now we are adding `IF` `ELSEIF` conditions. the code sorts the table according to column number provided by user. the code is given below:
 
 ```
 
@@ -55,4 +55,12 @@ End If
 
 
 End Sub
+```
+- Now if the user input does not corresponds to columns, it shows an error message. the code in `ELSE` statement is given as:
+
+```
+ Else
+    tryAgain = MsgBox("Invalid Value. Want to try again?", vbYesNo)
+    If tryAgain = 6 Then
+    userInputForm
 ```
