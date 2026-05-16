@@ -5,14 +5,14 @@
 ![Macro-Enabled](https://img.shields.io/badge/File%20Type-.xlsm-blue)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-A simple VBA‑powered Excel tool that lets users sort a data table by selected column using a simple, interactive input box.  
+A simple VBA‑powered Excel tool that lets users sort a data table by selected column using an interactive input box.  
 Built by combining **Record Macro** for the core sorting logic with **custom VBA** for user interaction and error handling.
 
 ---
 
 ##  Project Overview
 
-The **002 SortingRecords.xlsm** workbook contains a sheet named **“SORT RECORDS”** with the columns:
+The **SortingRecords.xlsm** workbook contains a sheet named **“SORT RECORDS”** with the columns:
 
 | Division | Category | Jan | Feb | Mar | Total |
 |----------|----------|-----|-----|-----|-------|
@@ -40,16 +40,16 @@ The project shows how recorded macros can be  integrated with custom VBA to crea
 ##  Technologies Used
 
 - **Microsoft Excel** (`.xlsm` macro‑enabled workbook)
-- **VBA (Visual Basic for Applications)** – recorded and hand‑written code
+- **VBA (Visual Basic for Applications)** – recorded and written code
 
 ---
 
 ##  Installation & Setup
 
-1. **Download** the file `002 SortingRecords.xlsm` from the repository.
+1. **Download** the file `SortingRecords.xlsm` from the repository.
 2. Open the workbook in **Microsoft Excel** (desktop version recommended).
 3. If prompted, **Enable Macros** (the workbook is digitally signed with your trust by default when saved locally, but you may need to “Enable Content” in the security warning bar).
-4. Make sure the sheet **“SORT RECORDS”** contains your data with the correct column headers.
+4. Make sure the sheet **“SORT RECORDS”** contains data with the correct column headers.
 
 ---
 
@@ -82,8 +82,8 @@ The project shows how recorded macros can be  integrated with custom VBA to crea
 ##  Project Structure
 
 ```
-📁 sorting-records/
-├── 002 SortingRecords.xlsm   # Main macro-enabled workbook
+📁 MS-Excel-VBA-Record-Sorter/
+├── SortingRecords.xlsm   # Main macro-enabled workbook
 ├── README.md                 # You are here
 └── img/
     ├── user-input-form.png   # Screenshot of the input box
