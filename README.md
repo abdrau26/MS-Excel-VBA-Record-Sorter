@@ -100,7 +100,6 @@ Here is the complete code inside the workbook:
 
 
 ```vba
-
 Public Sub userInputForm()
 
 
@@ -112,9 +111,9 @@ Public Sub userInputForm()
                 "1-- Sort by Division" & vbCrLf & _
                 "2-- Sort by Category" & vbCrLf & _
                 "3-- Sort by Total"
-    
+
     userInput = InputBox(promptMSG)
-    
+
     If userInput = "1" Then
         DivisionSort
     ElseIf userInput = "2" Then
@@ -125,7 +124,7 @@ Public Sub userInputForm()
         tryAgain = MsgBox("Invalid Value. Want to try again?", vbYesNo)
         If tryAgain = 6 Then
             userInputForm
-    
+
         End If
     End If
 End Sub
